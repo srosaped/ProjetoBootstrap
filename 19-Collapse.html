@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Link Jquery -->
+        <script type="text/javascript" src="jquery/jquery-3.6.0.js"></script>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.css">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.css">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <script type="text/javascript" src="bootstrap/js/bootstrap.bundle.js"></script>
+        <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+        <title>Bootstrap</title>
+    </head>
+    <body>
+        <br/>
+        <div class="container">
+            <h2>Area Colapsável</h2>
+            <p>Clique no botão para alteranar entre mostrar ou esconder o texto</p>
+            <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Collapse</button>
+            <div id="demo" class="collapse">
+                <img src="images/imagem1.jpg" style="width:200px;"><br/>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error et perspiciatis ratione maxime eos laborum odit eum at earum qui velit, aliquam nulla laboriosam nisi. Asperiores natus nobis saepe. Suscipit!
+                Aliquid ullam accusantium repudiandae earum esse dolores totam, doloremque reprehenderit sunt aperiam minus quas illum fugit laborum sapiente voluptates distinctio impedit delectus et aliquam voluptas laboriosam incidunt eos dignissimos. Tenetur!
+                Vel cumque impedit doloremque cum? Illo reiciendis reprehenderit autem a necessitatibus dicta vero voluptate repellat saepe. Quo, error. Enim dignissimos corrupti temporibus blanditiis animi molestiae aut! Sint, incidunt! Consequatur, repellat?
+            </div>
+        </div>
+        <div class="container">
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header">
+                        <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                            Titulo 1
+                        </a>
+                    </div>
+                    <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                        <div class="card-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam provident repellat temporibus ipsum eveniet, ex ut veritatis fugiat ea similique earum unde laudantium ipsa, architecto vel autem aliquid dolorum consequuntur.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <a class="card-link" data-toggle="collapse" href="#collapseTwo">
+                            Titulo 2
+                        </a>
+                    </div>
+                    <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error laudantium sit architecto iste! Quam, unde itaque beatae impedit iste nobis non necessitatibus temporibus. Provident officiis ducimus assumenda iusto ratione explicabo.
+                            Obcaecati nam ducimus corporis similique aliquam distinctio ullam, accusamus in, adipisci dolorum quam nulla quasi sed dignissimos molestias commodi alias quas explicabo facere praesentium rerum, consectetur minus et nisi. Ipsum?
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <a class="card-link" data-toggle="collapse" href="#collapseThree">
+                            Titulo 3
+                        </a>
+                    </div>
+                    <div id="collapseThree" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ducimus eveniet quisquam maxime possimus facilis in repudiandae culpa rem eius fuga error, distinctio laborum harum blanditiis quam, quis dolorem? Quasi?
+                            Adipisci, deserunt perspiciatis quaerat aliquam quae, eaque voluptates iste dolores blanditiis repudiandae assumenda minus reiciendis tempore. Amet eos, ex architecto asperiores dolor doloribus mollitia aliquam dicta suscipit labore repellat ratione.
+                            Ullam facere harum reiciendis cum rem, soluta consequuntur hic rerum! Ullam incidunt explicabo doloribus assumenda eveniet nostrum vero placeat eum facere unde quaerat error distinctio, dolore, libero magni et voluptas!
+                            Tempora libero odit sint aut. Consectetur ipsam totam aut accusamus, dignissimos laudantium animi assumenda alias eligendi dolor eum, culpa at velit earum? Sequi dolorum nobis odio autem earum, quasi vitae.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

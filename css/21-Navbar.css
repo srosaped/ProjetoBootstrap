@@ -1,0 +1,8 @@
+.bg-whitenote{
+    background-color:rgb(237,200,0);
+    color:white;
+}
+
+.bg-whitenote:hover{
+    background-color:rgb(179, 152, 0);
+}
